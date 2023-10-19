@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .percentage-bar {
+            width: 100%;
+            background-color: #ccc;
+        }
+
+        .percentage-fill {
+            height: 30px;
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="percentage-bar">
+        <div class="percentage-fill" id="fill"></div>
+    </div>
+    
+    <script>
+        // Example JavaScript to update the percentage ba   r
+        const fillElement = document.getElementById('fill');
+        const percentage = 75; // Change this value to set the percentage
+        fillElement.style.width = percentage + '%';
+    </script>
+</body>
+</html>
